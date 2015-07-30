@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/apps/fepet-example">
+        <exclude pattern="/apps/fepet-example/install.*"/>
+        <exclude pattern="/apps/fepet-example/runmodes.*"/>
+    </filter>
+    <filter root="/etc/clientlibs/fepet-example"/>
+	<filter root="/etc/designs/fepet-example">
+        <exclude pattern="/etc/designs/fepet-example/jcr:content.*"/>
+    </filter>
+</workspaceFilter>
