@@ -29,6 +29,63 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>com.github.eirslett</groupId>
+                <artifactId>frontend-maven-plugin</artifactId>
+                <version>0.0.23</version>
+                <configuration>
+                    <workingDirectory>src/main/content/jcr_root/etc/designs/fe-example</workingDirectory>
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <id>install node and npm</id>
+                        <goals>
+                            <goal>install-node-and-npm</goal>
+                        </goals>
+                        <configuration>
+                            <nodeVersion>v0.10.30</nodeVersion>
+                            <npmVersion>1.4.21</npmVersion>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>npm install</id>
+                        <goals>
+                            <goal>npm</goal>
+
+                        </goals>
+                        <configuration>
+                            <arguments>install</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>bower install</id>
+                        <goals>
+                            <goal>bower</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>gulp build</id>
+                        <goals>
+                            <goal>gulp</goal>
+                        </goals>
+
+                        <!-- optional: the default phase is "generate-resources" -->
+                        <phase>generate-resources</phase>
+
+                        <configuration>
+                            <!-- optional: if not specified, it will run gulp's default
+                            task (and you can remove this whole <configuration> section.) -->
+                            <arguments>build</arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+     <!--   <plugins>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
                 <executions>
@@ -61,7 +118,7 @@
                 <artifactId>maven-vault-plugin</artifactId>
                 <extensions>true</extensions>
             </plugin>
-        </plugins>
+        </plugins>-->
     </build>
 
     <profiles>

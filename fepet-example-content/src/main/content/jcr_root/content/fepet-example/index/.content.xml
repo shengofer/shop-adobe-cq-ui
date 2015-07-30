@@ -12,28 +12,34 @@
         <par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
-            <examplecomponent
+            <navigation
+                    jcr:created="{Date}2012-06-20T16:30:42.436-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2012-06-20T16:30:42.436-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fepet-example/components/navigation"/>
+            <top_unit
                 jcr:created="{Date}2012-06-20T16:30:42.436-07:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2012-06-20T16:30:42.436-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="fepet-example/components/examplecomponent"/>
-            <examplecomponent2
-                jcr:created="{Date}2012-06-20T16:30:50.000-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2012-06-20T16:30:50.000-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="fepet-example/components/examplecomponent2"/>
-            <image
-                jcr:created="{Date}2012-06-20T16:31:37.985-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2012-06-20T16:31:37.985-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="foundation/components/image"
-                fileReference="/content/dam/fepet-example/logo.jpg"/>
+                sling:resourceType="fepet-example/components/top_unit"/>
+            <about
+                    jcr:created="{Date}2012-06-20T16:30:42.436-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2012-06-20T16:30:42.436-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fepet-example/components/about"/>
+            <footer
+                    jcr:created="{Date}2012-06-20T16:30:42.436-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2012-06-20T16:30:42.436-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="fepet-example/components/footer"/>
         </par>
     </jcr:content>
 </jcr:root>
