@@ -11331,7 +11331,7 @@ function updateModule(data) {
 }
 },{"./../../../base/controller.js":42,"./collection.js":58,"./view.js":60}],60:[function(require,module,exports){
 (function (__dirname){
-var source = "<div class='product-item {{#if sale}}product-item_on-sale {{/if}} {{#unless available}}product-item_out-of-stock{{/unless}}'>\n    <div class='action-buttons__outer'>\n        <ul class='action-buttons'>\n            <li class='action-buttons__item action-buttons__item_view'></li>\n            <li class='action-buttons__item action-buttons__item_wishlist'></li>\n            <li class='action-buttons__item action-buttons__item_share'></li>\n            <li class='action-buttons__item action-buttons__item_buy'></li>\n        </ul>\n    </div>\n    <img src='{{image}}' alt='{{name}}' class='product-item__image'/>\n    <div class='product-item-info'>\n        <div class='product-item-info__price'>{{price}}</div>\n        <div class='product-item-info__name'>{{name}}</div>\n    </div>\n</div>\n";
+var source = "<div class='product-item {{#if sale}}product-item_on-sale {{/if}} {{#unless available}}product-item_out-of-stock{{/unless}}'>\n    <div class='action-buttons__outer'>\n        <ul class='action-buttons'>\n            <li class='action-buttons__item action-buttons__item_view'></li>\n            <li class='action-buttons__item action-buttons__item_wishlist'></li>\n            <li class='action-buttons__item action-buttons__item_share'></li>\n            <li class='action-buttons__item action-buttons__item_buy'></li>\n        </ul>\n    </div>\n    <img src='{{image}}' alt='{{name}}' class='product-item__image'/>\n;
     var baseView = require('./../../../base/view.js');
 
 

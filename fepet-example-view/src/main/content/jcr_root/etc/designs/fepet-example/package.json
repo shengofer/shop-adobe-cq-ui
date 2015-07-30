@@ -1,5 +1,5 @@
 {
-  "name": "ninJS-shop",
+  "name": "fepet-shop",
   "version": "0.0.1",
   "description": "shop application",
   "scripts": {
@@ -7,12 +7,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/frontend-school/ninJS-shop"
+    "url": "https://github.com/shengofer/shop-adobe-cq-ui"
   },
-  "author": "ninJS",
+  "author": "shen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/frontend-school/ninJS-shop/issues"
+    "url": "https://github.com/shengofer/shop-adobe-cq-ui/issues"
   },
   "devDependencies": {
     "bower": "^1.4.1",

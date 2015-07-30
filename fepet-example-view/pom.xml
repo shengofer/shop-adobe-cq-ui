@@ -33,7 +33,7 @@
                 <artifactId>frontend-maven-plugin</artifactId>
                 <version>0.0.23</version>
                 <configuration>
-                    <workingDirectory>src/main/content/jcr_root/etc/designs/fe-example</workingDirectory>
+                    <workingDirectory>src/main/content/jcr_root/etc/designs/fepet-example</workingDirectory>
                 </configuration>
 
                 <executions>
@@ -43,8 +43,10 @@
                             <goal>install-node-and-npm</goal>
                         </goals>
                         <configuration>
-                            <nodeVersion>v0.10.30</nodeVersion>
-                            <npmVersion>1.4.21</npmVersion>
+                            <nodeVersion>v0.12.6</nodeVersion>
+                            <npmVersion>2.11.0</npmVersion>
+                            <npmDownloadRoot>http://registry.npmjs.org/npm/-/</npmDownloadRoot>
+                            <!--<npmDownloadRoot>http://registry.npmjs.org/npm/-/npm-2.11.0.tgz</npmDownloadRoot>-->
                         </configuration>
                     </execution>
                     <execution>
@@ -83,8 +85,7 @@
                     </execution>
                 </executions>
             </plugin>
-        </plugins>
-     <!--   <plugins>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -118,7 +119,7 @@
                 <artifactId>maven-vault-plugin</artifactId>
                 <extensions>true</extensions>
             </plugin>
-        </plugins>-->
+        </plugins>
     </build>
 
     <profiles>
