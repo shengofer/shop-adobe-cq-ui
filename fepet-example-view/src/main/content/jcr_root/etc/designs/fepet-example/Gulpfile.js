@@ -25,12 +25,12 @@ var gulp = require('gulp'),
             data: './src/data/**'
         },
         dist: {
-            root: './../../../apps/fe-example/clientlibs',
-            css: './../../../apps/fe-example/clientlibs/css',
-            js: './../../../apps/fe-example/clientlibs/js',
-            img: './../../../apps/fe-example/clientlibs/img',
-            vendor: './../../../apps/fe-example/clientlibs/vendor',
-            data: './../../../apps/fe-example/clientlibs/data'
+            root: './../../../apps/fepet-example/clientlibs',
+            css: './../../../apps/fepet-example/clientlibs/css',
+            js: './../../../apps/fepet-example/clientlibs/js',
+            img: './../../../apps/fepet-example/clientlibs/img',
+            vendor: './../../../apps/fepet-example/clientlibs/vendor',
+            data: './../../../apps/fepet-example/clientlibs/data'
         }
     };
 
